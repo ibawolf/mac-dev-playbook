@@ -22,51 +22,24 @@ This is a work in progress, and is mostly a means for me to document my current 
 
 Applications (installed with Homebrew Cask):
 
-  - Adium
-  - BetterTouchTool
   - Google Chrome
   - Dropbox
   - Firefox
-  - Handbrake
   - Homebrew
-  - Karabiner
   - LICEcap
-  - MacVim
-  - Menu Meters
-  - nvALT
-  - Sequel Pro (MySQL client)
   - Skype
-  - Skitch
-  - Seil
-  - Sublime Text
-  - TextMate
-  - TimeMachineEditor
-  - Tower (Git client)
-  - Transmit (S/FTP client)
   - Vagrant (+ Vagrant Manager)
-  - VirtualBox
   - VLC
 
 Packages (installed with Homebrew):
 
   - ansible
-  - autoconf
-  - gettext
-  - libevent
   - packer
   - python
   - sqlite
-  - mysql
-  - php56 (+ php56-xdebug)
   - ssh-copy-id
-  - cowsay
-  - ios-sim
-  - readline
-  - subversion
-  - kdiff3
   - openssl
   - pv
-  - drush
   - wget
   - brew-cask
 

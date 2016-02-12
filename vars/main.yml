@@ -15,39 +15,24 @@ dotfiles_files:
 
 homebrew_installed_packages:
   - ansible
-  - autoconf
   - bash-completion
-  - boot2docker
   - docker
-  - gettext
   - git
   - go
   - gpg
-  - hub
+#  - hub
   - iperf
-  - libdvdcss
-  - libevent
   - packer
   - python
   - sqlite
   - mcrypt
-  - mysql
   - npm
   - nvm
-  - php56
-  - php56-mcrypt
-  - php56-xdebug
   - ssh-copy-id
-  - cowsay
-  - ios-sim
   - readline
-  - subversion
-  - kdiff3
   - openssl
   - pv
-  - drush
   - wget
-  - wrk
   - brew-cask
 
 homebrew_taps:
@@ -59,29 +44,13 @@ homebrew_taps:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
-  - adium
-  - bettertouchtool
   - google-chrome
+  - dockertoolbox
   - dropbox
   - fing
   - firefox
-  - handbrake
-  - karabiner
-  - limechat
   - licecap
-  - macvim
-  - menumeters
-  - nvalt
-  - sequel-pro
   - skype
-  - skitch
-  - seil
-  - sublime-text # Note - Sublime Text 2 only, at this time...
-  - textmate
-  - timemachineeditor
-  - tower
-  - transmit
   - vagrant
   - vagrant-manager
   - vlc
-  - virtualbox
