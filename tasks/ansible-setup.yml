@@ -4,12 +4,6 @@
     path: "{{ downloads }}"
     state: directory
 
-- name: Ensure /etc/ansible directory exists.
-  file:
-    path: /etc/ansible
-    state: directory
-  sudo: yes
-
 - name: Symlink /usr/local/etc/ansible to /etc/ansible.
   file:
     src: /etc/ansible
