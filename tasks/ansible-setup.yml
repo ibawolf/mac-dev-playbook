@@ -9,3 +9,4 @@
     dest: /etc/ansible
     src: /usr/local/etc/ansible
     state: link
+  sudo: yes
