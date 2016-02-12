@@ -6,6 +6,6 @@
 
 - name: Symlink /usr/local/etc/ansible to /etc/ansible.
   file:
-    src: /etc/ansible
-    path: /usr/local/etc/ansible
+    dest: /etc/ansible
+    src: /usr/local/etc/ansible
     state: link
