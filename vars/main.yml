@@ -33,7 +33,6 @@ homebrew_installed_packages:
   - openssl
   - pv
   - wget
-  - brew-cask
 
 homebrew_taps:
   - caskroom/cask
@@ -44,13 +43,21 @@ homebrew_taps:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
+  - intellij-idea
   - google-chrome
   - dockertoolbox
   - dropbox
   - fing
   - firefox
   - licecap
+  - pycharm
+  - rubymine
   - skype
+  - slack
+  - sococo
+  - textual
   - vagrant
   - vagrant-manager
   - vlc
+# - vmware-fusion   <--- Broken at the moment
+  - webstorm
